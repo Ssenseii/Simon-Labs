@@ -2,22 +2,22 @@
 
 ## font size: 
 
-  --fnt-100: 12px
-  --fnt-200: 14px
-  --fnt-300: 16px
-  --fnt-400: 18px
-  --fnt-500: 20px
-  --fnt-600: 24px
-  --fnt-700: 30px
-  --fnt-800: 36px
-  --fnt-900: 48px
-  --fnt-X: 94px 
+    --fnt-100: 12px;
+    --fnt-200: 14px;
+    --fnt-300: 16px;
+    --fnt-400: 18px;
+    --fnt-500: 20px;
+    --fnt-600: 24px;
+    --fnt-700: 30px;
+    --fnt-800: 36px;
+    --fnt-900: 48px;
+    --fnt-X: 94px ;
 
 
 ## font weight: 
 
-  --wgt-normal: 400 - 500;
-  --wgt-heavy: 600 - 700;
+    --wgt-normal: 400 - 500;
+    --wgt-heavy: 600 - 700;
 
 ## lines
 
@@ -32,18 +32,18 @@
 
 ## Color:
 
-  Primary: Blues
+    Primary: Blues
   
-  Accent: 
-    Teal
-    Purple
-    red
-    Green
-    Yellow
+    Accent: 
+        Teal
+        Purple
+        red
+        Green
+        Yellow
 
-  Follow WCAG
+    Follow WCAG
 
-  light and dark in graphs instead of multiples
+    light and dark in graphs instead of multiples
 
 ## Spacing
 
