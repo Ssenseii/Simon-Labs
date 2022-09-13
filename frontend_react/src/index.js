@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 
-import style from "./assets/style/style.scss"
+import "./assets/style/style.scss"
 
 import Layout from "./pages/layout";
 import Home from "./pages/Home";
