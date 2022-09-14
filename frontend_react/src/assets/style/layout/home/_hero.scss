@@ -8,7 +8,7 @@
 
   &__bg{
     position: absolute;
-    z-index: -1;
+    z-index: 1;
     width: 100%;
     height: 100%;
 
@@ -44,12 +44,33 @@
       h2{
         font-size: var(--fnt-900);
         margin-bottom: 2rem;
+
+        div{
+          display: inline-block;
+
+        }
       }
   
       p{
         font-size: var(--fnt-500);
         width: 50ch;
         line-height: 1.5;
+        margin-bottom: 1rem;
+
+        div{
+          display: inline-block;
+          width: 9ch;
+          text-align: center;
+        }
+
+        &:nth-child(2){
+          margin-bottom: 2rem;
+        }
+      }
+
+      &-actions{
+        display: flex;
+        flex-direction: row;
       }
     }
     
