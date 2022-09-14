@@ -2,22 +2,8 @@ import React, { useState, useEffect } from "react";
 import images from "../../constants/images";
 
 const Hero = () => {
-  const [Adjective, setAdjective] = useState("Innovative");
-  const adjectives = [
-    "innovative",
-    "structured",
-    "aesthetic",
-    "creative",
-    "ornamental",
-  ];
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setAdjective(Adjective => adjectives[Math.floor(Math.random() * adjectives.length)])
-    }, 8400);
-
-    return () => clearInterval(interval)
-  })
+  
 
   return (
     <div className="hero">
@@ -36,7 +22,7 @@ const Hero = () => {
 
           <p>
             Millions of businesses - from startups to media conglomerats -
-            strive to achieve <div>{Adjective}</div> framework design, Beautiful
+            strive to achieve <div>refined</div> framework design, Beautiful
             UI, and Striking brand Image.
           </p>
 

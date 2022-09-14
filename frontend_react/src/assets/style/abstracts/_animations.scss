@@ -1,29 +1,17 @@
-@keyframes FlipCards {
-  0% {
-    opacity: 1;
+@keyframes colorMeshGradient{
+  0%{
+    background-position: center center;
   }
 
-  10% {
-    opacity: 0;
-    transform: rotateX(-90deg) translateY(10px);
+  25%{
+    background-position: left center;
   }
 
-  12% {
-    opacity: 0;
-    transform: rotateX(-90deg);
+  75%{
+    background-position: center right;
   }
-
-  13% {
-    opacity: 1;
-    transform: rotateX(-90deg) translateY(-10px);
-  }
-
-  20%{
-    opacity: 1;
-    transform: none;
-  }
-
-  100% {
-    opacity: 1;
+  
+  100%{
+    background-position: center center;
   }
 }
