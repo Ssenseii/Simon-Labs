@@ -1,8 +1,9 @@
 import React from 'react'
+import Nav from "../components/Nav"
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <div><Nav /></div>
   )
 }
 

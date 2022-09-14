@@ -1,8 +1,9 @@
 import React from 'react'
+import Nav from "../components/Nav"
 
 const Nopage = () => {
   return (
-    <div>Nopage</div>
+    <div><Nav /></div>
   )
 }
 

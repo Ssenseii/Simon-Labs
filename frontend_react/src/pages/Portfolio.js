@@ -1,8 +1,9 @@
 import React from 'react'
+import Nav from "../components/Nav"
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <div><Nav /></div>
   )
 }
 
