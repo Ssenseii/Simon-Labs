@@ -1,16 +1,22 @@
 .nav {
-  width: 100%;
+  width: 70%;
   height: 4rem;
   display: flex;
   flex-direction: row;
+
+  margin-left: auto;
+  margin-right: auto;
 
   &__segment {
     width: 50%;
     display: flex;
 
     &-logo {
-      width: 2rem;
+      width: auto;
       height: 2rem;
+
+      display: flex;
+      flex-direction: row;
 
       align-self: center;
       justify-self: start;
@@ -18,12 +24,19 @@
       margin-left: 2rem;
 
       img {
-        width: 100%;
+        width: 2rem;
+      }
+
+      h2{
+        font-size: var(--fnt-500);
+        align-self: center;
+        margin-left: 4px;
       }
     }
 
     &-links {
-        width: 16rem;
+      
+      width: 18rem;
 
       display: flex;
       flex-direction: row;
@@ -31,6 +44,9 @@
       justify-content: space-evenly;
 
       margin-left: auto;
+
+      padding-right: 1rem;
+
 
       border-right: 1px solid $Gray300;
 
@@ -180,6 +196,12 @@
 
       }
     }
+  }
+}
+
+@media screen and (max-width: 1300px){
+  .nav{
+    width: 100%;
   }
 }
 
