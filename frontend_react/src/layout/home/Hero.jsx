@@ -22,14 +22,30 @@ const Hero = () => {
 
           <p>
             Millions of businesses - from startups to media conglomerats -
-            strive to achieve <div>refined</div> framework design, Beautiful
-            UI, and Striking brand Image.
+            strive to achieve <div>refined</div> framework design, Beautiful UI,
+            and Striking brand Image.
           </p>
 
           <p>With our tools and experiences, so can you...</p>
 
-          <div className="hero__text-actions">
-            <button>Start Now</button>
+          <div className="hero__content-text-actions">
+            <button>
+              Start Now
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={3}
+                stroke="currentColor"
+                className="button-isActive"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </button>
             <a href="">Learn More</a>
           </div>
 
