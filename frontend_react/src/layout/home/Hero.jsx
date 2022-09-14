@@ -1,23 +1,23 @@
-import React, { useState } from "react";
-import { motion } from "framer-motion";
+import React, { useState, useEffect } from "react";
 import images from "../../constants/images";
 
 const Hero = () => {
   const [Adjective, setAdjective] = useState("Innovative");
-  const [IsActive, setIsActive] = useState(false);
   const adjectives = [
     "innovative",
-    "creative",
     "structured",
     "aesthetic",
-    "imaginative",
-    "elegant",
+    "creative",
     "ornamental",
-    "stimulating",
-    "sublime",
-    "tasteful",
-    "refined",
   ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setAdjective(Adjective => adjectives[Math.floor(Math.random() * adjectives.length)])
+    }, 8400);
+
+    return () => clearInterval(interval)
+  })
 
   return (
     <div className="hero">
@@ -31,35 +31,13 @@ const Hero = () => {
             Brushing <span>Perfection</span>
           </h1>
           <h2>
-            one line of <motion.div>code</motion.div> at a time
+            one line of <span>code</span> at a time
           </h2>
 
           <p>
-            Millions of businesses - from startups tp conglomerats - strive to
-            achieve{" "}
-            <motion.span
-              onClick={() => {
-                setInterval(() => {
-                  setIsActive(!IsActive);
-                  console.log("set active");
-                }, 5000);
-
-                setInterval(() => {
-                  setAdjective(
-                    adjectives[Math.floor(Math.random() * adjectives.length)]
-                  );
-                  console.log("adjective Set")
-                }, 5000)
-              }}
-              animate={{
-                rotateX: IsActive ? [0, 90, 0] : 0,
-                y: IsActive ? [0, 5, -5, 0] : 0,
-                opacity: IsActive ? [1, 0, 1] : 1,
-              }}
-            >
-              {Adjective}
-            </motion.span>{" "}
-            framework design, Beautiful UI, and Brand Image.
+            Millions of businesses - from startups to media conglomerats -
+            strive to achieve <div>{Adjective}</div> framework design, Beautiful
+            UI, and Striking brand Image.
           </p>
 
           <p>With our tools and experiences, so can you...</p>

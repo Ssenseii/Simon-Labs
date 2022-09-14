@@ -1,0 +1,29 @@
+@keyframes FlipCards {
+  0% {
+    opacity: 1;
+  }
+
+  10% {
+    opacity: 0;
+    transform: rotateX(-90deg) translateY(10px);
+  }
+
+  12% {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+
+  13% {
+    opacity: 1;
+    transform: rotateX(-90deg) translateY(-10px);
+  }
+
+  20%{
+    opacity: 1;
+    transform: none;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

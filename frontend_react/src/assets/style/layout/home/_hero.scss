@@ -45,10 +45,6 @@
         font-size: var(--fnt-900);
         margin-bottom: 2rem;
 
-        div{
-          display: inline-block;
-
-        }
       }
   
       p{
@@ -59,8 +55,8 @@
 
         div{
           display: inline-block;
-          width: 9ch;
           text-align: center;
+          animation: FlipCards 8s ease-in-out infinite;
         }
 
         &:nth-child(2){
