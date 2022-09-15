@@ -1,17 +1,43 @@
 :root {
 
-      /// font size
+      /// font size - desktop
 
-      --fnt-100: 12px;
-      --fnt-200: 14px;
-      --fnt-300: 16px;
-      --fnt-400: 18px;
-      --fnt-500: 20px;
-      --fnt-600: 24px;
-      --fnt-700: 30px;
-      --fnt-800: 36px;
-      --fnt-900: 48px;
-      --fnt-X: 94px;
+      --fnt-100-d: 0.631vw;
+      --fnt-200-d: 0.729vw;
+      --fnt-300-d: 0.833vw;
+      --fnt-400-d: 0.938vw;
+      --fnt-500-d: 1.042vw;
+      --fnt-600-d: 1.25vw;
+      --fnt-700-d: 1.563vw;
+      --fnt-800-d: 1.875vw;
+      --fnt-900-d: 2.5vw;
+      --fnt-X-d: 4.896vw;
+
+      /// font size - tablet
+
+      --fnt-100-t: 0.923vw;
+      --fnt-200-t: 1.077vw;
+      --fnt-300-t: 1.231vw;
+      --fnt-400-t: 1.385vw;
+      --fnt-500-t: 1.538vw;
+      --fnt-600-t: 1.846vw;
+      --fnt-700-t: 2.308vw;
+      --fnt-800-t: 2.769vw;
+      --fnt-900-t: 3.692vw;
+      --fnt-X-t: 7.23136vw;
+
+      /// font size - mobile
+
+      --fnt-100-m: 2vw;
+      --fnt-200-m: 2.333vw;
+      --fnt-300-m: 2.667vw;
+      --fnt-400-m: 3vw;
+      --fnt-500-m: 3.333vw;
+      --fnt-600-m: 4vw;
+      --fnt-700-m: 5vw;
+      --fnt-800-m: 6vw;
+      --fnt-900-m: 8vw;
+      --fnt-X-m: 15.667vw;
 
       /// margin
 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import images from "../../constants/images";
 
 const Hero = () => {
@@ -6,13 +6,18 @@ const Hero = () => {
   
 
   return (
-    <div className="hero">
+    <section className="hero">
       <div className="hero__bg">
         <img src={images.bg_hero} alt="BG_hero" />
       </div>
 
+      <div className="hero__mockup">
+        <img className="hero__mockup-desktop" src={images.phone_mockup} alt="" />
+        <img className="hero__mockup-mobile" src={images.phone_mockup_mobile} alt="" />
+      </div>
+
       <div className="hero__content">
-        <div className="hero__content-text">
+        <section className="hero__content-text">
           <h1>
             Brushing <span>Perfection</span>
           </h1>
@@ -22,7 +27,7 @@ const Hero = () => {
 
           <p>
             Millions of businesses - from startups to media conglomerats -
-            strive to achieve <div>refined</div> framework design, Beautiful UI,
+            strive to achieve refined framework design, Beautiful UI,
             and Striking brand Image.
           </p>
 
@@ -46,13 +51,13 @@ const Hero = () => {
                 />
               </svg>
             </button>
-            <a href="">Learn More</a>
+            <a href="google.com">Learn More</a>
           </div>
 
           <div className="hero__content-graphic"></div>
-        </div>
+        </section>
       </div>
-    </div>
+    </section>
   );
 };
 
