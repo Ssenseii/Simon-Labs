@@ -95,7 +95,7 @@ const Nav = () => {
 
       {ToggleMenu && (
         <motion.div
-          initial={{ x: 400 }}
+          initial={{ x: 20 }}
           whileInView={{ x: 0 }}
           transition={{
             default: { ease: "easeInOut" },

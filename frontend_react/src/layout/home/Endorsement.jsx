@@ -1,0 +1,34 @@
+import React from 'react'
+import images from '../../constants/images';
+
+const Endorsement = () => {
+  return (
+    <div className="endorsement">
+      <table className="endorsement__table">
+        <tr>
+          <td><img src={images.Logo_react} alt="" /></td>
+          <td><img src={images.Logo_tailwind} alt="" /></td>
+          <td><img src={images.Logo_materialUI} alt="" /></td>
+          <td><img src={images.Logo_sass} alt="" /></td>
+          <td><img src={images.Logo_framer} alt="" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><img src={images.Logo_ps} alt="" /></td>
+          <td><img src={images.Logo_figma} alt="" /></td>
+          <td><img src={images.Logo_pr} alt="" /></td>
+          <td><img src={images.Logo_il} alt="" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td><img src={images.Logo_aseprite} alt="" /></td>
+          <td><img src={images.Logo_blender} alt="" /></td>
+          <td><img src={images.Logo_sanity} alt="" /></td>
+        </tr>
+      </table>
+    </div>
+  );
+}
+
+export default Endorsement

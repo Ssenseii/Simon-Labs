@@ -7,9 +7,6 @@ const Hero = () => {
 
   return (
     <section className="hero">
-      <div className="hero__bg">
-        <img src={images.bg_hero} alt="BG_hero" />
-      </div>
 
       <div className="hero__mockup">
         <img className="hero__mockup-desktop" src={images.phone_mockup} alt="" />
