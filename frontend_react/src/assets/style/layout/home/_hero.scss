@@ -1,5 +1,4 @@
 .hero {
-
   position: relative;
   width: 100%;
   height: calc(100vh - 4rem);
@@ -100,7 +99,7 @@
       }
 
       &-actions {
-        width: 20%;
+        width: 20rem;
 
         display: flex;
         flex-direction: row;
@@ -156,13 +155,9 @@
 @media screen and (max-width: 1300px) {
   .hero {
     width: 100%;
-    height: 50vh;
-
-    border: 1px solid red;
+    height: 80vh;
 
     &__content {
-
-      border: 1px solid blue;
 
       &-text {
 
@@ -234,7 +229,6 @@
 
         &-actions {
           width: 70%;
-
           min-width: 100%;
 
           button {

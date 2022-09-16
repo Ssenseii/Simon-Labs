@@ -4,33 +4,10 @@
 
   flex-direction: column;
 
-  &__title{
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-items: baseline;
-    align-self: flex-start;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    padding-bottom: 1rem;
-    border-bottom: 1px solid $Gray400;
-
-
-    svg{
-      width: 4rem;
-      height: 4rem;
-      margin-right: 8px;
-    }
-
-    h2{
-      font-size: var(--fnt-700-d);
-      align-self: flex-end;
-    }
-  }
-
   &__table {
+    border-top: 1px solid $Gray500;
+    border-bottom: 1px solid $Gray500;
+
     height: 70%;
     width: 70%;
 
@@ -53,20 +30,22 @@
 }
 
 @media screen and (max-width: 900px) {
+  
   .tools {
-    height: 80vh;
+    height: 110vh;
 
     &__table {
+
       height: auto;
       width: 100%;
 
       display: flex;
-
-      justify-content: center;
+      margin-top: auto;
+      align-self: flex-end;
 
       margin-top: 1rem;
-      tr {
 
+      tr {
         td {
           display: flex;
 
