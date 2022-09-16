@@ -10,7 +10,6 @@ const Hero = () => {
 
       <div className="hero__mockup">
         <img className="hero__mockup-desktop" src={images.phone_mockup} alt="" />
-        <img className="hero__mockup-mobile" src={images.phone_mockup_mobile} alt="" />
       </div>
 
       <div className="hero__content">

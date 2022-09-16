@@ -156,8 +156,13 @@
 @media screen and (max-width: 1300px) {
   .hero {
     width: 100%;
+    height: 50vh;
+
+    border: 1px solid red;
 
     &__content {
+
+      border: 1px solid blue;
 
       &-text {
 
@@ -194,11 +199,7 @@
 @media screen and (max-width: 900px) {
   .hero {
     width: 100%;
-    height: 200vh;
-
-    &__bg {
-      display: none;
-    }
+    height: 80vh;
 
     &__mockup {
       height: 100%;
@@ -211,11 +212,7 @@
       &-desktop {
         display: none;
       }
-
-      &-mobile {
-        display: block;
-        width: 900px;
-      }
+      
     }
 
     &__content {

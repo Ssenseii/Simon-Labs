@@ -1,6 +1,7 @@
 import logo from '../assets/images/logo.png'
 import bg_hero from '../assets/images/bg_hero.png'
 import bg_home from '../assets/images/bg_home.png'
+import bg_home_mobile from '../assets/images/bg_home_mobile.png'
 import phone_mockup from '../assets/images/phone_mockup.png'
 import phone_mockup_mobile from '../assets/images/phone_mockup_mobile.png'
 import Logo_react from '../assets/images/endorsements/Logo_react.svg'
@@ -20,6 +21,7 @@ export default {
   logo,
   bg_hero,
   bg_home,
+  bg_home_mobile,
   phone_mockup,
   phone_mockup_mobile,
   Logo_react,
