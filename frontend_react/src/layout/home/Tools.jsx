@@ -6,6 +6,8 @@ const Tools = () => {
     <div className="tools">
       
       <table className="tools__table">
+        <tbody>
+
         <tr>
           <td>
             <img src={images.Logo_react} alt="" />
@@ -51,6 +53,7 @@ const Tools = () => {
             <img src={images.Logo_sanity} alt="" />
           </td>
         </tr>
+        </tbody>
       </table>
     </div>
   );
