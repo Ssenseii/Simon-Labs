@@ -22,7 +22,6 @@ const Brand = () => {
             <button onClick={() => {setBrandStyle("minimalist");}}>Minimalist</button>
           </div>
           <div>
-            <img src="" alt="" />
             <article className={BrandStyle}>
               <h3>Headline:</h3>
               <p>

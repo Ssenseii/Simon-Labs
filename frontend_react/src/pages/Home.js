@@ -3,6 +3,7 @@ import Nav from '../components/Nav'
 import Hero from '../layout/home/Hero'
 import Tools from '../layout/home/Tools'
 import Brand from '../layout/home/Brand'
+import Build_Anything from '../layout/home/Build_Anything'
 import { images } from '../constants'
 
 
@@ -17,6 +18,7 @@ const Home = () => {
       <Hero />
       <Tools />
       <Brand />
+      <Build_Anything />
     </div>
   )
 }
