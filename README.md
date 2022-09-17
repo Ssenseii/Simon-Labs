@@ -9,3 +9,10 @@ After learning more about responsive design, react patterns and performance enha
 - Well developed custom hooks instead of HOC for small JS bundles.
 - responsive design first -> scale from movile to wider screens.
 - Same style-guide but with more defined rules.
+
+    ### links
+
+      - https://web.dev/learn/design/
+      - https://www.patterns.dev/
+      - https://tailwindcss.com/docs/optimizing-for-production
+      - https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink/
