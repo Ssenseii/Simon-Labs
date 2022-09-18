@@ -1,5 +1,10 @@
 # Style Guide for Simon's Lab
 
+
+## font family
+
+    <!-- Source Sans Pro -->
+
 ## font size: 
 
     --fnt-100: 12px;
@@ -29,6 +34,8 @@
   ### Line length rules:
 
       40 - 75 Characters
+
+      optimal: 66ch
 
 ## Color:
 
