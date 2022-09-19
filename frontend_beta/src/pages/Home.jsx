@@ -1,13 +1,16 @@
 import React from 'react'
-import Hero from '../layout/home/Hero'
 import Nav from '../components/Nav';
-
+import Hero from '../layout/home/Hero'
+import Whoami from '../layout/home/Whoami'
+import Patterns from '../layout/home/Patterns';
 
 const Home = () => {
   return (
     <div className="home">
       <Nav />
-      <Hero></Hero>
+      <Hero />
+      <Whoami />
+      <Patterns />
     </div>
   );
 }

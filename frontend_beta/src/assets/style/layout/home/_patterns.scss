@@ -1,0 +1,27 @@
+.pattern {
+  height: auto;
+  width: 100%;
+
+  border: 4px solid $LightBlue900;
+
+  background-color: #0A2540;
+  color: $Gray50;
+
+  border-right: none;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding-block: 4rem;
+
+  h2 {
+    font-size: var(--fnt-900-m);
+    text-align: end;
+    margin-right: 1rem;
+    margin-block-end: 4rem;
+  }
+
+}
+
