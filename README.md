@@ -17,3 +17,13 @@ After learning more about responsive design, react patterns and performance enha
       - https://tailwindcss.com/docs/optimizing-for-production
       - https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink/
       - https://material.io/design/typography/the-type-system.html#type-scale 
+      
+      
+## September 18th.
+
+After testing Tailwind out for a day now. I've come to the conclusion it won't work with the design I had in mind.
+It limits the customizability greatly, allowing less creativity with the design.
+It's still a great tool for building websites and I will be using it for the blog probably.
+But it's not for websites that require "fine tuning the settings"
+
+I'll be going back to my favorite option: SCSS
