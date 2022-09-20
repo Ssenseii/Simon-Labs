@@ -1,39 +1,39 @@
-.whoami{
+.whoami {
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
-  transition: all 0.3s ease-in-out; 
-  padding-block: 4rem;
+  transition: all 0.3s ease-in-out;
+  margin-block: 4rem;
 
-  article{
+  article {
     width: 100%;
     padding: 1rem;
     transition: all 0.3s ease-in-out;
 
-    h2{
+    h2 {
       font-size: var(--fnt-900-m);
       margin-bottom: 1rem;
       color: $Blue800;
       transition: all 0.3s ease-in-out;
     }
 
-    section{
+    section {
       margin-bottom: 2rem;
       transition: all 0.3s ease-in-out;
 
-      p{
+      p {
         font-size: var(--fnt-600-m);
         margin-bottom: 1rem;
         transition: all 0.3s ease-in-out;
       }
 
-      ul{
-        list-style-type:circle;
+      ul {
+        list-style-type: circle;
         margin-bottom: 1rem;
         transition: all 0.3s ease-in-out;
 
-        li{
+        li {
           margin-left: 2rem;
           margin-bottom: 8px;
           font-size: var(--fnt-600-m);
@@ -42,7 +42,7 @@
         }
       }
 
-      div{
+      div {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -50,7 +50,7 @@
         height: 3rem;
         transition: all 0.3s ease-in-out;
 
-        button{
+        button {
           width: 2rem;
           height: 2rem;
 
@@ -59,8 +59,8 @@
           background-color: transparent;
           margin-inline-end: 8px;
           transition: all 0.3s ease-in-out;
-          
-          svg{
+
+          svg {
             width: 1rem;
             height: 1rem;
 
@@ -69,7 +69,7 @@
           }
         }
 
-        p{
+        p {
           color: $Blue500;
           font-size: var(--fnt-500-m);
           align-self: flex-end;
@@ -82,229 +82,230 @@
 }
 
 
-@media screen and (max-width: 767px)  and (min-width: 640px) {
+@media screen and (max-width: 767px) and (min-width: 640px) {
   .whoami {
-      height: 100vh;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-  
-      article {
-        width: 90%;
-        padding: 1rem;
-  
-        h2 {
-          font-size: var(--fnt-900-m);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-block: 4rem;
+
+    article {
+      width: 90%;
+      padding: 1rem;
+
+      h2 {
+        font-size: var(--fnt-900-m);
+        margin-bottom: 1rem;
+        color: $Blue800;
+      }
+
+      section {
+        margin-bottom: 2rem;
+
+        p {
+          font-size: var(--fnt-600-m);
           margin-bottom: 1rem;
-          color: $Blue800;
         }
-  
-        section {
-          margin-bottom: 2rem;
-  
-          p {
+
+        ul {
+          list-style-type: circle;
+          margin-bottom: 1rem;
+
+          li {
+            margin-left: 2rem;
+            margin-bottom: 8px;
             font-size: var(--fnt-600-m);
-            margin-bottom: 1rem;
+            font-weight: 300;
           }
-  
-          ul {
-            list-style-type: circle;
-            margin-bottom: 1rem;
-  
-            li {
-              margin-left: 2rem;
-              margin-bottom: 8px;
-              font-size: var(--fnt-600-m);
-              font-weight: 300;
+        }
+
+        div {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          width: 70%;
+          height: 3rem;
+
+          button {
+            width: 2rem;
+            height: 2rem;
+
+            border: 1px solid $Blue700;
+            border-radius: 10px;
+            background-color: transparent;
+            margin-inline-end: 8px;
+
+            svg {
+              width: 1rem;
+              height: 1rem;
+
+              stroke: $Blue500;
             }
           }
-  
-          div {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            width: 70%;
-            height: 3rem;
-  
-            button {
-              width: 2rem;
-              height: 2rem;
-  
-              border: 1px solid $Blue700;
-              border-radius: 10px;
-              background-color: transparent;
-              margin-inline-end: 8px;
-  
-              svg {
-                width: 1rem;
-                height: 1rem;
-  
-                stroke: $Blue500;
-              }
-            }
-  
-            p {
-              color: $Blue500;
-              font-size: var(--fnt-500-m);
-              align-self: flex-end;
-            }
+
+          p {
+            color: $Blue500;
+            font-size: var(--fnt-500-m);
+            align-self: flex-end;
           }
         }
       }
-  
     }
+
+  }
 }
 
-@media screen and (max-width: 1280px)  and (min-width: 768px) {
+@media screen and (max-width: 1280px) and (min-width: 768px) {
   .whoami {
-      height: 100vh;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-  
-      article {
-        width: 90%;
-        padding: 1rem;
-  
-        h2 {
-          font-size: var(--fnt-900-t);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-block: 4rem;
+
+    article {
+      width: 90%;
+      padding: 1rem;
+
+      h2 {
+        font-size: var(--fnt-900-t);
+        margin-bottom: 2rem;
+        color: $Blue800;
+      }
+
+      section {
+        margin-bottom: 2rem;
+
+        p {
+          font-size: var(--fnt-600-t);
+          width: 66ch;
           margin-bottom: 2rem;
-          color: $Blue800;
         }
-  
-        section {
+
+        ul {
+          list-style-type: circle;
           margin-bottom: 2rem;
-  
-          p {
+
+          li {
+            margin-left: 2rem;
+            margin-bottom: 8px;
             font-size: var(--fnt-600-t);
-            width: 66ch;
-            margin-bottom: 2rem;
+            font-weight: 300;
           }
-  
-          ul {
-            list-style-type: circle;
-            margin-bottom: 2rem;
-  
-            li {
-              margin-left: 2rem;
-              margin-bottom: 8px;
-              font-size: var(--fnt-600-t);
-              font-weight: 300;
+        }
+
+        div {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          width: 70%;
+          height: 3rem;
+
+          button {
+            width: 2rem;
+            height: 2rem;
+
+            border: 1px solid $Blue700;
+            border-radius: 10px;
+            background-color: transparent;
+            margin-inline-end: 8px;
+            align-self: center;
+
+            svg {
+              width: 1rem;
+              height: 1rem;
+
+              stroke: $Blue500;
             }
           }
-  
-          div {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            width: 70%;
-            height: 3rem;
-  
-            button {
-              width: 2rem;
-              height: 2rem;
-  
-              border: 1px solid $Blue700;
-              border-radius: 10px;
-              background-color: transparent;
-              margin-inline-end: 8px;
-              align-self: center;
-  
-              svg {
-                width: 1rem;
-                height: 1rem;
-  
-                stroke: $Blue500;
-              }
-            }
-  
-            p {
-              color: $Blue500;
-              font-size: var(--fnt-500-t);
-              align-self: center;
-              margin-bottom: 0;
-            }
+
+          p {
+            color: $Blue500;
+            font-size: var(--fnt-500-t);
+            align-self: center;
+            margin-bottom: 0;
           }
         }
       }
-  
     }
+
+  }
 }
 
 
 @media screen and (min-width: 1280px) {
   .whoami {
-      height: 100vh;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-  
-      article {
-        width: 90%;
-        padding: 1rem;
-  
-        h2 {
-          font-size: var(--fnt-900-d);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-block: 4rem;
+
+    article {
+      width: 90%;
+      padding: 1rem;
+
+      h2 {
+        font-size: var(--fnt-900-d);
+        margin-bottom: 2rem;
+        color: $Blue800;
+      }
+
+      section {
+        margin-bottom: 2rem;
+
+        p {
+          font-size: var(--fnt-600-d);
+          width: 66ch;
           margin-bottom: 2rem;
-          color: $Blue800;
         }
-  
-        section {
+
+        ul {
+          list-style-type: circle;
           margin-bottom: 2rem;
-  
-          p {
+
+          li {
+            margin-left: 2rem;
+            margin-bottom: 8px;
             font-size: var(--fnt-600-d);
-            width: 66ch;
-            margin-bottom: 2rem;
+            font-weight: 300;
           }
-  
-          ul {
-            list-style-type: circle;
-            margin-bottom: 2rem;
-  
-            li {
-              margin-left: 2rem;
-              margin-bottom: 8px;
-              font-size: var(--fnt-600-d);
-              font-weight: 300;
+        }
+
+        div {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          width: 70%;
+          height: 3rem;
+
+          button {
+            width: 2rem;
+            height: 2rem;
+
+            border: 1px solid $Blue700;
+            border-radius: 10px;
+            background-color: transparent;
+            margin-inline-end: 8px;
+            align-self: flex-end;
+
+            svg {
+              width: 1.5rem;
+              height: 1.5rem;
+
+              stroke: $Blue500;
             }
           }
-  
-          div {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            width: 70%;
-            height: 3rem;
-  
-            button {
-              width: 2rem;
-              height: 2rem;
-  
-              border: 1px solid $Blue700;
-              border-radius: 10px;
-              background-color: transparent;
-              margin-inline-end: 8px;
-              align-self: flex-end;
-  
-              svg {
-                width: 1.5rem;
-                height: 1.5rem;
-  
-                stroke: $Blue500;
-              }
-            }
-  
-            p {
-              color: $Blue500;
-              font-size: var(--fnt-500-d);
-              align-self: flex-end;
-              margin-bottom: 0;
-            }
+
+          p {
+            color: $Blue500;
+            font-size: var(--fnt-500-d);
+            align-self: flex-end;
+            margin-bottom: 0;
           }
         }
       }
-  
     }
+  }
 }
-
