@@ -1,13 +1,142 @@
-.focus{
+.focus {
   width: 100%;
   background-color: $Gray100;
 
-  article{
-    padding-inline: 2rem;
+  padding-block: 4rem;
 
-    
-    section{
+  article {
+    padding: 2rem;
+
+    section {
       height: 100vh;
+
+      &:nth-child(1) {
+        h4 {
+          color: $Blue800;
+        }
+      }
+
+      &:nth-child(2) {
+        h4 {
+          color: $Amber800;
+        }
+      }
+
+      &:nth-child(3) {
+        h4 {
+          color: $Indigo800;
+        }
+      }
+
+      &:nth-child(4) {
+        h4 {
+          color: $Green800;
+        }
+      }
+
+      &:nth-child(5) {
+        h4 {
+          color: $Red800;
+        }
+      }
+
+      h4 {
+        font-size: var(--fnt-600-m);
+        margin-bottom: 8px;
+      }
+
+      h3 {
+        font-size: var(--fnt-800-m);
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: var(--fnt-500-m);
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  .focus {
+
+    article {
+
+      section {
+        height: 100vh;
+
+        h4 {
+
+          font-size: var(--fnt-500-m);
+
+        }
+
+        h3 {
+          font-size: var(--fnt-700-m);
+
+        }
+
+        p {
+          font-size: var(--fnt-400-m);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .focus {
+
+    article {
+
+      section {
+        height: 100vh;
+
+        h4 {
+
+          font-size: var(--fnt-600-t);
+
+        }
+
+        h3 {
+          font-size: var(--fnt-800-t);
+        }
+
+        p {
+          font-size: var(--fnt-500-t);
+          width: 66ch;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .focus {  
+    @include Center;
+
+    article {
+      width: 70%;
+
+      section {
+        height: 100vh;
+
+        h4 {
+
+          font-size: var(--fnt-600-d);
+
+        }
+
+        h3 {
+          font-size: var(--fnt-800-d);
+        }
+
+        p {
+          font-size: var(--fnt-500-d);
+          width: 66ch;
+        }
+      }
     }
   }
 }
