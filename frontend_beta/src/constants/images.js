@@ -1,8 +1,15 @@
 import logo from '../assets/images/logo.svg'
-import pattern_m from '../assets/images/pattern_m.svg'
+import p_1 from '../assets/images/patterns/p_1.jpg'
+import p_2 from '../assets/images/patterns/p_2.png'
+import p_3 from '../assets/images/patterns/p_3.png'
+import p_4 from '../assets/images/patterns/p_4.png'
 
-
-export default {
+const images = {
   logo,
-  pattern_m,
+  p_1,
+  p_2,
+  p_3,
+  p_4,
   }
+
+  export default images;

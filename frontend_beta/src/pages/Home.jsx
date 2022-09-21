@@ -2,8 +2,8 @@ import React from 'react'
 import Nav from '../components/Nav';
 import Hero from '../layout/home/Hero'
 import Whoami from '../layout/home/Whoami'
-import Patterns from '../layout/home/Patterns';
 import Tools from '../layout/home/Tools';
+import Focus from '../layout/home/Focus';
 
 const Home = () => {
   return (
@@ -11,8 +11,8 @@ const Home = () => {
       <Nav />
       <Hero />
       <Whoami />
-      <Patterns />
       <Tools />
+      <Focus />
     </div>
   );
 }
