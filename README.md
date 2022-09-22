@@ -27,3 +27,20 @@ It's still a great tool for building websites and I will be using it for the blo
 But it's not for websites that require "fine tuning the settings"
 
 I'll be going back to my favorite option: SCSS
+
+
+## Septmeber 22nd.
+
+I finished the asset design for an Edgar Allan poe / H.P lovecraft theme. 
+After reworking some details in Illustrator. I managed to figure out that SVG backgrounds really hate brush Paths. BMPs are good but they come with a white BG. JPEGs are too big + theyt have a grain to them.
+
+    Conclusion: PNG wins as my new choice for asset format.
+
+I finished the strucutre and it looks spacious, understandeable.
+
+roboto Slab will remain as the main font.
+I tried changing it to regular roboto, but it didn't fit the design. It's quite a discovery how largely the font affects the personality of a website.
+
+No sanity needed. I'll use either Hugo, Jekyll or Astro for the blog.
+
+I need website mockups for the portfolio page.

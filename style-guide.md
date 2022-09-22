@@ -1,5 +1,22 @@
 # Style Guide for Simon's Lab
 
+### breakpoints
+
+.mobile
+
+@media screen and (min-width: 640px) and (max-width: 767px){
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+
+}
+
+@media screen and (min-width: 1280px){
+
+}
+
+
 
 ## font family
 
