@@ -1,8 +1,11 @@
 .focus {
   width: 100%;
-  background-color: $Gray100;
-
   padding-block: 4rem;
+
+  background-image: url("../../../images/bg/focus/focus_m.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 
   article {
     padding: 2rem;
@@ -88,6 +91,11 @@
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .focus {
 
+    background-image: url("../../../images/bg/focus/focus_t.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+
     article {
 
       section {
@@ -115,6 +123,11 @@
 @media screen and (min-width: 1280px) {
   .focus {  
     @include Center;
+
+    background-image: url("../../../images/bg/focus/focus_d.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
 
     article {
       width: 70%;

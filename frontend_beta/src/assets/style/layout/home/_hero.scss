@@ -6,6 +6,10 @@
   align-items: flex-end;
   transition: all 0.1s ease-in-out;
 
+  background-image: url("../../../images/bg/hero/hero_m.bmp");
+  background-repeat: no-repeat;
+  background-position: right top;
+
 
   article {
     width: 90%;
@@ -77,7 +81,7 @@
         border-radius: 5px;
         transition: all 0.1s ease-in-out;
 
-        &:hover{
+        &:hover {
           cursor: pointer;
           background-color: #000;
           color: $Gray100;
@@ -90,12 +94,12 @@
       }
 
       a {
-        
+
         font-size: var(--fnt-400-m);
         color: $Gray600;
         transition: all 0.1s ease-in-out;
 
-        &:hover{
+        &:hover {
           cursor: pointer;
         }
       }
@@ -263,6 +267,9 @@
   .hero {
     height: calc(100vh - 4rem);
 
+    background-image: url("../../../images/bg/hero/hero_d.bmp");
+    background-repeat: no-repeat;
+    background-position: right top;
     display: flex;
     justify-content: center;
     align-items: center;
