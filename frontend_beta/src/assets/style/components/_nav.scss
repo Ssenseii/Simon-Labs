@@ -190,6 +190,20 @@
         margin-inline-start: auto;
         margin-inline-end: auto;
 
+        display: flex;
+        flex-direction: column;
+
+        div{
+          height: 1px;
+          width: 0;
+          background-color: $Gray900;
+          transition: all 0.2s ease-in-out;
+        }
+
+        &:hover > div{
+          width: 100%;
+          transition: all 0.2s ease-in-out;
+        }
 
         .nav-link {
           text-decoration: none;

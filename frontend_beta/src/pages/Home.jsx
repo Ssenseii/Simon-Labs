@@ -1,4 +1,6 @@
 import React from 'react'
+import {motion} from 'framer-motion'
+
 import Nav from '../components/Nav';
 import Hero from '../layout/home/Hero'
 import Whoami from '../layout/home/Whoami'
@@ -8,14 +10,14 @@ import Footer from '../layout/home/Footer';
 
 const Home = () => {
   return (
-    <div className="home">
+    <motion.main initial={{opacity: 0}} animate={{opacity: 1}} className="home">
       <Nav />
       <Hero />
       <Whoami />
       <Tools />
       <Focus />
       <Footer />
-    </div>
+    </motion.main>
   );
 }
 

@@ -2,10 +2,12 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section className='hero'>
+    <section className="hero">
       <article>
-        <h1>Brushing Perfection</h1>
-        <div className='hero__subtitle'>
+        <h1>
+          Brushing <span>Perfection</span>
+        </h1>
+        <div className="hero__subtitle">
           <code>A line code at a time</code>
           <div />
         </div>

@@ -8,8 +8,8 @@ const WhoAmI = () => {
 
         <section>
           <p>
-            My name is Simon Reinhardt, and I am a frontend developer. <br />{" "}
-            <i>I am also an avid reader and an ink artist.</i>
+            My name is Simon Reinhardt, and I am a frontend developer. <br />
+            I am also an avid reader and an ink artist.
           </p>
         </section>
 
