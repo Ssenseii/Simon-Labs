@@ -13,6 +13,7 @@ const Focus = () => {
             quality of product. While also focusing on the speed of the
             published product.
           </p>
+          <button>read about Project "Bolt"</button>
         </section>
 
         <section>
@@ -23,6 +24,7 @@ const Focus = () => {
             Because we are working on efficient guides, it's easy to deploy
             elegant and fully-functional products
           </p>
+          <button>Take a look at our projects and prototypes</button>
         </section>
 
         <section>
@@ -33,6 +35,7 @@ const Focus = () => {
             these days. Watch your idea magically apply to every screen size and
             media possible.
           </p>
+          <button>Find out more about our design philosophy</button>
         </section>
 
         <section>
@@ -41,12 +44,14 @@ const Focus = () => {
           <p>
             Ideas should be understood by everyone. We ship websites that follow WCAG guidelines, which makes us accessible by the majority of people.
           </p>
+          <button>What makes this website accessible ?</button>
         </section>
 
         <section>
           <h4>Open and Concise</h4>
           <h3>Clear Communication is Key.</h3>
           <p>We like to share our research with people, and help them understand the decisions behind some aspects of our websites. You can visit our blog and read about our design process or engineering.</p>
+          <button>Bask in our sea of Blogs</button>
         </section>
       </article>
     </section>

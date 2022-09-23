@@ -17,11 +17,31 @@
         h4 {
           color: $Blue800;
         }
+
+        button {
+          color: $Blue800;
+          border-color: $Blue800;
+
+          &:hover {
+            cursor: pointer;
+            background-color: $Blue800;
+          }
+        }
       }
 
       &:nth-child(2) {
         h4 {
           color: $Amber800;
+        }
+
+        button {
+          border-color: $Amber800;
+          color: $Amber800;
+
+          &:hover {
+            cursor: pointer;
+            background-color: $Amber800;
+          }
         }
       }
 
@@ -29,17 +49,47 @@
         h4 {
           color: $Indigo800;
         }
+
+        button {
+          border-color: $Indigo800;
+          color: $Indigo800;
+
+          &:hover {
+            cursor: pointer;
+            background-color: $Indigo800;
+          }
+        }
       }
 
       &:nth-child(4) {
         h4 {
           color: $Green800;
         }
+
+        button {
+          border-color: $Green800;
+          color: $Green800;
+
+          &:hover {
+            cursor: pointer;
+            background-color: $Green800;
+          }
+        }
       }
 
       &:nth-child(5) {
         h4 {
           color: $Red800;
+        }
+
+        button {
+          border-color: $Red800;
+          color: $Red800;
+
+          &:hover {
+            cursor: pointer;
+            background-color: $Red800;
+          }
         }
       }
 
@@ -56,6 +106,21 @@
       p {
         font-size: var(--fnt-500-m);
         line-height: 1.5;
+        margin-bottom: 1rem;
+      }
+
+      button {
+        padding: 8px 1rem;
+        border: 2px solid;
+        border-radius: 25px;
+        background-color: transparent;
+
+        font-size: var(--fnt-500-m);
+        font-weight: 700;
+
+        &:hover {
+          color: #fff;
+        }
       }
     }
   }
@@ -83,6 +148,10 @@
         p {
           font-size: var(--fnt-400-m);
         }
+
+        button {
+          font-size: var(--fnt-400-m);
+        }
       }
     }
   }
@@ -92,9 +161,9 @@
   .focus {
 
     background-image: url("../../../images/bg/focus/focus_t.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 
     article {
 
@@ -115,19 +184,23 @@
           font-size: var(--fnt-500-t);
           width: 66ch;
         }
+
+        button {
+          font-size: var(--fnt-500-t);
+        }
       }
     }
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .focus {  
+  .focus {
     @include Center;
 
     background-image: url("../../../images/bg/focus/focus_d.png");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 
     article {
       width: 70%;
@@ -148,6 +221,10 @@
         p {
           font-size: var(--fnt-500-d);
           width: 66ch;
+        }
+
+        button {
+          font-size: var(--fnt-500-d);
         }
       }
     }
