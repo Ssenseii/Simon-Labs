@@ -12,6 +12,7 @@
   }
 
   &__suggestion {
+    background-color: transparent;
 
     h1 {
       font-size: var(--fnt-900-m);
@@ -52,7 +53,6 @@
 
       textarea {
         height: 30vh;
-        border: 1px solid $Gray50;
         background: $Gray700;
         padding: 1rem;
 
@@ -70,6 +70,26 @@
         font-size: var(--fnt-600-m);
       }
     }
+  }
+
+  &__other {
+
+    h3 {
+      font-size: var(--fnt-600-m);
+      margin-bottom: 2rem;
+    }
+
+    div {
+      display: flex;
+      flex-flow: row wrap;
+
+      a {
+        font-size: var(--fnt-500-m);
+        margin-bottom: 8px;
+        margin-right: 1rem;
+      }
+    }
+
   }
 }
 
@@ -128,118 +148,162 @@
         }
       }
     }
+
+    &__other {
+
+      h3 {
+        font-size: var(--fnt-500-m);
+      }
+
+      div {
+        a {
+          font-size: var(--fnt-400-m);
+        }
+      }
+    }
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
   .form {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-  
-  
-      section {
-        width: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+    section {
+      width: 50%;
+    }
+
+    &__suggestion {
+
+      h1 {
+        font-size: var(--fnt-900-t);
+        margin-bottom: 2rem;
       }
-  
-      &__suggestion {
-  
-        h1 {
-          font-size: var(--fnt-900-t);
-          margin-bottom: 2rem;
-        }
-  
-        p {
-          line-height: 1.5;
+
+      p {
+        line-height: 1.5;
+        font-size: var(--fnt-600-t);
+        margin-bottom: 4rem;
+      }
+    }
+
+    &__form {
+      background-color: $Gray800;
+      color: $Gray50;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+
+        label {
+          margin-bottom: 8px;
           font-size: var(--fnt-600-t);
-          margin-bottom: 4rem;
+          font-weight: 600;
         }
-      }
-  
-      &__form {
-        background-color: $Gray800;
-        color: $Gray50;
-  
-        div {
-          display: flex;
-          flex-direction: column;
-          margin-bottom: 2rem;
-  
-          label {
-            margin-bottom: 8px;
-            font-size: var(--fnt-600-t);
-            font-weight: 600;
-          }
-  
-          input {
-            font-size: var(--fnt-600-t);
-          }
-  
-          textarea {
-            font-size: var(--fnt-600-t);
-          }
-  
-          button {
-            font-size: var(--fnt-600-t);
-          }
+
+        input {
+          font-size: var(--fnt-600-t);
+        }
+
+        textarea {
+          font-size: var(--fnt-600-t);
+        }
+
+        button {
+          font-size: var(--fnt-600-t);
         }
       }
     }
+
+    &__other {
+
+      h3 {
+        font-size: var(--fnt-600-t);
+      }
+
+      div {
+        a {
+          font-size: var(--fnt-500-t);
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
   .form {
-      width: 100%;
-      display: flex;
-      flex-direction: row;
+    height: calc(100vh - 4rem);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 
-  
-      &__suggestion {
 
-        width: 30%;
+    &__suggestion {
 
-        h1 {
-          font-size: var(--fnt-900-d);
-          margin-bottom: 2rem;
-        }
-  
-        p {
-          line-height: 1.5;
-          font-size: var(--fnt-600-d);
-          margin-bottom: 4rem;
-        }
+      width: 50%;
+
+      h1 {
+        font-size: var(--fnt-900-d);
+        margin-bottom: 2rem;
       }
-  
-      &__form {
-        height: 100vh;
-        width: 50%;
-        background-color: $Gray800;
-        color: $Gray50;
-  
-        div {
-          display: flex;
-          flex-direction: column;
-          margin-bottom: 2rem;
-  
-          label {
-            margin-bottom: 8px;
-            font-size: var(--fnt-600-d);
-            font-weight: 600;
-          }
-  
-          input {
-            font-size: var(--fnt-600-d);
-          }
-  
-          textarea {
-            font-size: var(--fnt-600-d);
-          }
-  
-          button {
-            font-size: var(--fnt-600-d);
-          }
+
+      p {
+        width: 66ch;
+        line-height: 1.5;
+        font-size: var(--fnt-600-d);
+        margin-bottom: 4rem;
+      }
+    }
+
+    &__form {
+      margin-top: 8rem;
+      height: auto;
+      width: 50%;
+      background-color: $Gray800;
+      color: $Gray50;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+
+        label {
+          margin-bottom: 8px;
+          font-size: var(--fnt-600-d);
+          font-weight: 600;
+        }
+
+        input {
+          font-size: var(--fnt-600-d);
+        }
+
+        textarea {
+          font-size: var(--fnt-600-d);
+        }
+
+        button {
+          font-size: var(--fnt-600-d);
         }
       }
     }
+
+    &__other {
+      margin-top: 6rem;
+      width: 15%;
+
+      h3 {
+        font-size: var(--fnt-600-d);
+      }
+
+      div {
+        a {
+          font-size: var(--fnt-500-d);
+        }
+      }
+    }
+  }
 }

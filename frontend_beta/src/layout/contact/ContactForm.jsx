@@ -52,7 +52,9 @@ const ContactForm = () => {
           </div>
 
           <div>
-            <button type="submit" value="send" >Send</button>
+            <button type="submit" value="send">
+              Send
+            </button>
           </div>
         </form>
       </section>
@@ -60,7 +62,20 @@ const ContactForm = () => {
       <section className="form__other">
         <h3>Social Media:</h3>
         <div>
-          <a href="https://www.google.com" target="_blank" rel="noreferrer">Google</a>
+          <a
+            href="https://github.com/Ssenseii"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+          <a
+            href="https://www.linkedin.com/in/saad-aboussabr-647a6a22a/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Linkdin
+          </a>
         </div>
       </section>
     </main>
