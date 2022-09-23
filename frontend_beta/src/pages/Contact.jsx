@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "../components/Nav";
-import ContactForm from "../layout/contact/C_Form";
+import ContactForm from "../layout/contact/ContactForm";
 
 const Contact = () => {
   return (

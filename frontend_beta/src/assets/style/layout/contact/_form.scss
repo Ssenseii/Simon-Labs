@@ -1,0 +1,245 @@
+.form {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  section {
+    padding: 2rem;
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+
+  &__suggestion {
+
+    h1 {
+      font-size: var(--fnt-900-m);
+      margin-bottom: 2rem;
+    }
+
+    p {
+      line-height: 1.5;
+      font-size: var(--fnt-600-m);
+      margin-bottom: 4rem;
+    }
+  }
+
+  &__form {
+    background-color: $Gray800;
+    color: $Gray50;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2rem;
+
+      label {
+        margin-bottom: 8px;
+        font-size: var(--fnt-600-m);
+        font-weight: 600;
+      }
+
+      input {
+        height: 2rem;
+        border: none;
+        border-bottom: 1px solid $Gray50;
+        background-color: $Gray700;
+        color: $Gray50;
+        font-size: var(--fnt-600-m);
+        padding-inline-start: 1rem;
+      }
+
+      textarea {
+        height: 30vh;
+        border: 1px solid $Gray50;
+        background: $Gray700;
+        padding: 1rem;
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: var(--fnt-600-m);
+        color: $Gray50;
+      }
+
+      button {
+        height: 3rem;
+        background-color: $Green700;
+        color: $Gray50;
+        border: none;
+        border-radius: 10px;
+        font-size: var(--fnt-600-m);
+      }
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  .form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+
+    section {
+      width: 90%;
+    }
+
+    &__suggestion {
+
+      h1 {
+        font-size: var(--fnt-800-m);
+        margin-bottom: 2rem;
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: var(--fnt-500-m);
+        margin-bottom: 4rem;
+      }
+    }
+
+    &__form {
+      background-color: $Gray800;
+      color: $Gray50;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+
+        label {
+          margin-bottom: 8px;
+          font-size: var(--fnt-500-m);
+          font-weight: 600;
+        }
+
+        input {
+          font-size: var(--fnt-500-m);
+        }
+
+        textarea {
+          font-size: var(--fnt-500-m);
+        }
+
+        button {
+          font-size: var(--fnt-500-m);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .form {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  
+  
+      section {
+        width: 50%;
+      }
+  
+      &__suggestion {
+  
+        h1 {
+          font-size: var(--fnt-900-t);
+          margin-bottom: 2rem;
+        }
+  
+        p {
+          line-height: 1.5;
+          font-size: var(--fnt-600-t);
+          margin-bottom: 4rem;
+        }
+      }
+  
+      &__form {
+        background-color: $Gray800;
+        color: $Gray50;
+  
+        div {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 2rem;
+  
+          label {
+            margin-bottom: 8px;
+            font-size: var(--fnt-600-t);
+            font-weight: 600;
+          }
+  
+          input {
+            font-size: var(--fnt-600-t);
+          }
+  
+          textarea {
+            font-size: var(--fnt-600-t);
+          }
+  
+          button {
+            font-size: var(--fnt-600-t);
+          }
+        }
+      }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+  .form {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+
+  
+      &__suggestion {
+
+        width: 30%;
+
+        h1 {
+          font-size: var(--fnt-900-d);
+          margin-bottom: 2rem;
+        }
+  
+        p {
+          line-height: 1.5;
+          font-size: var(--fnt-600-d);
+          margin-bottom: 4rem;
+        }
+      }
+  
+      &__form {
+        height: 100vh;
+        width: 50%;
+        background-color: $Gray800;
+        color: $Gray50;
+  
+        div {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 2rem;
+  
+          label {
+            margin-bottom: 8px;
+            font-size: var(--fnt-600-d);
+            font-weight: 600;
+          }
+  
+          input {
+            font-size: var(--fnt-600-d);
+          }
+  
+          textarea {
+            font-size: var(--fnt-600-d);
+          }
+  
+          button {
+            font-size: var(--fnt-600-d);
+          }
+        }
+      }
+    }
+}
