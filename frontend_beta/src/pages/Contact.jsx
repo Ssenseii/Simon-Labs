@@ -5,10 +5,10 @@ import {motion} from "framer-motion"
 
 const Contact = () => {
   return (
-    <motion.div initial={{opacity: 0}} animate={{opacity: 1}} className="contact">
+    <motion.main initial={{opacity: 0}} animate={{opacity: 1}} className="contact">
       <Nav />
       <ContactForm />
-    </motion.div>
+    </motion.main>
   );
 };
 

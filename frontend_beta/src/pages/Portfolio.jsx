@@ -4,9 +4,13 @@ import Nav from "../components/Nav";
 
 const Portfolio = () => {
   return (
-    <div>
+    <main className='nopage'>
       <Nav />
-    </div>
+      <section>
+        <h1>Coming Soon !!!</h1>
+        <p>This website is still being developped.</p>
+      </section>
+    </main>
   );
 }
 

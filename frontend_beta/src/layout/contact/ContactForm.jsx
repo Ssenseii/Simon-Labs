@@ -25,7 +25,7 @@ const ContactForm = () => {
   };
 
   return (
-    <main className="form">
+    <div className="form">
       <section className="form__suggestion">
         <h1>Let's create something together</h1>
         <p>
@@ -85,7 +85,7 @@ const ContactForm = () => {
           </a>
         </div>
       </section>
-    </main>
+    </div>
   );
 };
 
