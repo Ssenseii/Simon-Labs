@@ -6,6 +6,7 @@ const Nopage = () => {
   return (
     <div>
       <Nav />
+      {/* test */}
     </div>
   );
 }
