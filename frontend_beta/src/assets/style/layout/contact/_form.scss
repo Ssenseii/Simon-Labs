@@ -24,6 +24,15 @@
       font-size: var(--fnt-600-m);
       margin-bottom: 4rem;
     }
+
+    blockquote {
+      line-height: 1.5;
+      font-size: var(--fnt-600-m);
+      margin-bottom: 2rem;
+      padding-left: 1rem;
+
+      border-left: 8px solid $Blue200;
+    }
   }
 
   &__form {
@@ -118,6 +127,11 @@
         font-size: var(--fnt-500-m);
         margin-bottom: 4rem;
       }
+
+      blockquote {
+        line-height: 1;
+        font-size: var(--fnt-500-m);
+      }
     }
 
     &__form {
@@ -188,6 +202,11 @@
         font-size: var(--fnt-600-t);
         margin-bottom: 4rem;
       }
+
+      blockquote {
+        line-height: 1;
+        font-size: var(--fnt-600-t);
+      }
     }
 
     &__form {
@@ -243,7 +262,6 @@
 
 
     &__suggestion {
-
       width: 50%;
 
       h1 {
@@ -257,11 +275,16 @@
         font-size: var(--fnt-600-d);
         margin-bottom: 4rem;
       }
+
+      blockquote {
+        line-height: 1.5;
+        width: 50ch;
+        font-size: var(--fnt-600-d);
+      }
     }
 
     &__form {
       margin-top: 8rem;
-      height: auto;
       width: 50%;
       background-color: $Gray800;
       color: $Gray50;
@@ -292,7 +315,6 @@
     }
 
     &__other {
-      margin-top: 6rem;
       width: 15%;
 
       h3 {

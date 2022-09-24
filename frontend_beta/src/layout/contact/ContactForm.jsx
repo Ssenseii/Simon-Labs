@@ -32,6 +32,13 @@ const ContactForm = () => {
           if you have ideas, suggestions, questions, or any form of input. Make
           sure to leave us a message.
         </p>
+
+        <blockquote>
+          " Thank you for looking at my website and taking the time to write for
+          us. We appreciate your feedback, and I'll be sure to personally reply as soon as
+          possible "
+        </blockquote>
+        <p> - Saad "Simon reinhardt" Aboussabr</p>
       </section>
 
       <section className="form__form">

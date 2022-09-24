@@ -4,7 +4,7 @@ import ContactForm from "../layout/contact/ContactForm";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="contact">
       <Nav />
       <ContactForm />
     </div>
