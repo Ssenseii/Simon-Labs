@@ -7,6 +7,7 @@ const Nopage = () => {
   return (
     <main className="nopage">
       <Nav />
+<<<<<<< HEAD:frontend_beta/src/pages/NoPage.jsx
 
       <section>
         <h1>Page not found</h1>
@@ -26,6 +27,10 @@ const Nopage = () => {
         </div>
       </section>
     </main>
+=======
+      {/*  */}
+    </div>
+>>>>>>> 2b2feda0b2e4e2f198d910c91e9dcfb20a674031:frontend_beta/src/pages/Nopage.jsx
   );
 }
 
