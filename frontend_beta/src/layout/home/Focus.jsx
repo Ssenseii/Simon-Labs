@@ -2,7 +2,7 @@ import React from "react";
 
 const Focus = () => {
   return (
-    <section className="focus">
+    <section id="focus" className="focus">
       <article>
         <section>
           <h4>Speed</h4>
@@ -13,7 +13,7 @@ const Focus = () => {
             quality of product. While also focusing on the speed of the
             published product.
           </p>
-          <button>read about Project "Bolt"</button>
+          <button>Read about Project "Bolt"</button>
         </section>
 
         <section>

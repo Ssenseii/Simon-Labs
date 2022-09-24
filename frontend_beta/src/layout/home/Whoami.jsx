@@ -8,8 +8,8 @@ const WhoAmI = () => {
 
         <section>
           <p>
-            My name is Simon Reinhardt, and I am a frontend developer. <br />
-            I am also an avid reader and an ink artist.
+            My name is Simon Reinhardt, and I am a frontend developer. <br />I
+            am also an avid reader and an ink artist.
           </p>
         </section>
 
@@ -30,7 +30,18 @@ const WhoAmI = () => {
             </li>
             <li>
               I research websites and articles from renowned sources such as{" "}
-              <b>web.dev</b> , <b>material.io</b> and <b>A list apart</b>.
+              <b>
+                <a href="https://web.dev/">Web.dev</a>
+              </b>{" "}
+              ,
+              <b>
+                <a href="https://www.patterns.dev/">Patterns.dev</a>
+              </b>{" "}
+              ,
+              <b>
+                <a href="https://alistapart.com/">A List Apart</a>
+              </b>
+              , and many more...
             </li>
           </ul>
 
@@ -55,11 +66,9 @@ const WhoAmI = () => {
 
         <section>
           <p>
-            I love what I do. I can spend months working on one project even
-            though it takes me little time due to my predefined design guides
-            and patters, that I've built throughout the course of my
-            developement career
-          </p>
+            I love what I do but I don't like worrying about tiny insignificant
+            design decisions. My predefined style guides allow me to seamlessly
+            finish a project and hop onto the next without trouble.</p>
 
           <div>
             <button>
