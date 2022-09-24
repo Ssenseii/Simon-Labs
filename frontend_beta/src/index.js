@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route} from "react-router-dom"
 
 import "./assets/style/style.scss"
 
-import Layout from "./pages/layout";
+import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
 import Portfolio from "./pages/Portfolio"
