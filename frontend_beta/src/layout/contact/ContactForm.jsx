@@ -1,8 +1,12 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Confirmation from "./Confirmation";
 
 const ContactForm = () => {
   const form = useRef();
+  const [Status, setStatus] = useState("Sent");
+  const [Color, setColor] = useState("Green");
+  const [Visibility, setVisibility] = useState("invisible");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,15 +21,35 @@ const ContactForm = () => {
       .then(
         () => {
           console.log("Message sent !");
+          let form = document.getElementById("form");
+          form.reset();
+          setStatus("Sent");
+          setColor("Green");
+          setVisibility("visible");
+
+          setTimeout(() => {
+            setVisibility("invisible")
+          }, 2000);
+          
+          
         },
         () => {
           console.log("Message failed to send!");
+          setStatus("Not Sent");
+          setColor("Red");
+          setVisibility("visible");
+          
+          setTimeout(() => {
+            setVisibility("invisible")
+          }, 2000);
+          
         }
       );
   };
 
   return (
     <div className="form">
+      <Confirmation visibility={Visibility} confirm={Status} color={Color} />
       <section className="form__suggestion">
         <h1>Let's create something together</h1>
         <p>
@@ -35,14 +59,14 @@ const ContactForm = () => {
 
         <blockquote>
           " Thank you for looking at my website and taking the time to write for
-          us. We appreciate your feedback, and I'll be sure to personally reply as soon as
-          possible "
+          us. We appreciate your feedback, and I'll be sure to personally reply
+          as soon as possible "
         </blockquote>
-        <p> - Saad "Simon reinhardt" Aboussabr</p>
+        <p> - Simon Reinhardt</p>
       </section>
 
       <section className="form__form">
-        <form ref={form} onSubmit={sendEmail}>
+        <form id="form" ref={form} onSubmit={sendEmail}>
           <div>
             <label htmlFor="user_name">Full Name</label>
             <input id="user_name" type="text" name="user_name" />
