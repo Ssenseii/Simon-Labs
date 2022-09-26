@@ -44,3 +44,11 @@ I tried changing it to regular roboto, but it didn't fit the design. It's quite 
 No sanity needed. I'll use either Hugo, Jekyll or Astro for the blog.
 
 I need website mockups for the portfolio page.
+
+
+## September 26th
+
+I practically finished the website. Currently, Fixing some bugs and making the UI load faster, and the UX perform better.
+I had some kind of imposter syndrom while building the website and while reading a little more about what a develoepr should be. I have came to the conclusion I'm not skilled enough to be the kind of developer I want.
+
+I'm starting my last year of university in a couple of days. I have decided I will learn javascript to the best of my ability and become the best developer I can be. As of now, I'll work on building the blog site, so I can add any new changes there instead of here.
