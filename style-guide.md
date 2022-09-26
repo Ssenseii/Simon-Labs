@@ -1,5 +1,12 @@
 # Style Guide for Simon's Lab
 
+### for the blog
+
+postnames = first letter of tag + number. 
+-> D-1
+-> T-1
+-> P-1
+
 ### breakpoints
 
 .mobile
