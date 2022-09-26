@@ -39,6 +39,7 @@
     background-color: $Gray800;
     color: $Gray50;
 
+
     div {
       display: flex;
       flex-direction: column;
@@ -82,6 +83,7 @@
   }
 
   &__other {
+
 
     h3 {
       font-size: var(--fnt-600-m);
@@ -255,7 +257,6 @@
 
 @media screen and (min-width: 1280px) {
   .form {
-    height: calc(100vh - 4rem);
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -284,7 +285,7 @@
     }
 
     &__form {
-      margin-top: 8rem;
+      margin-top: 2rem;
       width: 50%;
       background-color: $Gray800;
       color: $Gray50;

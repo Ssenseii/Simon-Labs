@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="hero__actions">
           <a href="#focus">
             <button>
-              Take a Look
+              My Projects
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

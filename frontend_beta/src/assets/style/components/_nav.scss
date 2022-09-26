@@ -1,74 +1,42 @@
 .nav {
+  width: 100%;
+  height: 4rem;
+  background-color: transparent;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+  display: flex;
+
+
+  ul {
     width: 100%;
-    height: 4rem;
-    background-color: transparent;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-
+    height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
 
-    &__logo{
-      display: none;
-    }
+    li {
+      margin-inline: auto;
 
-
-    ul {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      list-style: none;
-
-      li {
-        margin-inline-start: auto;
-        margin-inline-end: auto;
-
-
-        .nav-link {
-          text-decoration: none;
-          color: $Gray900;
-          font-size: var(--fnt-600-m);
-        }
+      .nav-link {
+        text-decoration: none;
+        color: $Gray900;
+        font-size: var(--fnt-600-m);
       }
     }
   }
+}
 
 
 @media screen and (min-width: 640px) and (max-width:768px) {
   .nav {
-    width: 100%;
-    height: 4rem;
-    background-color: transparent;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-
-    display: flex;
-    flex-direction: row;
-
-  &__logo {
-      display: none;
-    }
     ul {
-      margin-left: auto;
       width: 50%;
-      height: 100%;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      list-style: none;
-
+      margin-left: auto;
       li {
-        margin-inline-start: auto;
-        margin-inline-end: auto;
-
-
         .nav-link {
-          text-decoration: none;
-          color: $Gray900;
           font-size: var(--fnt-200-m);
         }
       }
@@ -78,38 +46,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .nav {
-    width: 100%;
     height: 5rem;
-    background-color: transparent;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-
-    display: flex;
-    flex-direction: row;
-
-    &__logo {
-        display: none;
-      }
-
     ul {
-      margin-left: auto;
-      margin-right: auto;
+      margin-inline: auto;
       width: 80%;
-      height: 100%;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      list-style: none;
-
       li {
-        margin-inline-start: auto;
-        margin-inline-end: auto;
-
-
         .nav-link {
-          text-decoration: none;
-          color: $Gray900;
           font-size: var(--fnt-200-m);
         }
       }
@@ -119,39 +61,11 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .nav {
-    width: 100%;
-    height: 4rem;
-    background-color: transparent;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-
-    display: flex;
-    flex-direction: row;
-
-    &__logo {
-        display: none;
-      }
-
-
     ul {
-      margin-left: auto;
-      margin-right: auto;
+      margin-inline: auto;
       width: 50%;
-      height: 100%;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      list-style: none;
-
       li {
-        margin-inline-start: auto;
-        margin-inline-end: auto;
-
-
         .nav-link {
-          text-decoration: none;
-          color: $Gray900;
           font-size: var(--fnt-500-t);
         }
       }
@@ -160,53 +74,32 @@
 }
 
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px) {
   .nav {
-    width: 100%;
-    height: 4rem;
-    background-color: transparent;
-
-    display: flex;
-    flex-direction: row;
-
-    &__logo{
-      display: none;
-    }
-
 
     ul {
-      margin-left: auto;
-      margin-right: 10%;
-      width: 30rem;
+      margin-inline-start: auto;
+      margin-inline-end: 10%;
+      width: 20rem;
       height: 100%;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      list-style: none;
 
       li {
-        margin-inline-start: auto;
-        margin-inline-end: auto;
-
         display: flex;
         flex-direction: column;
 
-        div{
+        div {
           height: 1px;
           width: 0;
           background-color: $Gray900;
           transition: all 0.2s ease-in-out;
         }
 
-        &:hover > div{
+        &:hover > div {
           width: 100%;
           transition: all 0.2s ease-in-out;
         }
 
         .nav-link {
-          text-decoration: none;
-          color: $Gray900;
           font-size: var(--fnt-400-d);
         }
       }
