@@ -1,3 +1,21 @@
 .home {
   width: 100%;
+
+  &__wrapper {
+    background-image: url("../../../assets/images/bg/hero/hero_m.png");
+    background-size: contain;
+
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .home {
+    &__wrapper {
+      background-image: url("../../../assets/images/bg/hero/hero_d.png");
+      background-repeat: no-repeat;
+      background-position: right top;
+    }
+  }
 }

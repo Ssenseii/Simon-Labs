@@ -4,7 +4,7 @@ import Markdown from "markdown-to-jsx";
 import { motion } from "framer-motion"; 
 
 const Blog = () => {
-  const file_name = "BuildProcess.md";
+  const file_name = "27092022.md";
 
   const [Post, setPost] = useState("");
 
@@ -19,7 +19,11 @@ const Blog = () => {
   });
 
   return (
-    <motion.main className="blog">
+    <motion.main
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className="blog"
+    >
       <header>
         <Nav />
       </header>
