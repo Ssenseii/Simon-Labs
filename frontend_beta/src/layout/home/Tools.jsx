@@ -63,7 +63,7 @@ const Tools = () => {
         <motion.section
           style={{
             opacity: isInView ? 1 : 0,
-            translateX: isInView ? 0 : -200,
+            translateX: isInView ? 0 : -400,
             transition: "all 0.9s ease-in-out",
           }}
         >
@@ -81,7 +81,7 @@ const Tools = () => {
         <motion.section
           style={{
             opacity: isInView ? 1 : 0,
-            translateX: isInView ? 0 : -200,
+            translateX: isInView ? 0 : -600,
             transition: "all 0.9s ease-in-out",
           }}
         >
@@ -89,7 +89,7 @@ const Tools = () => {
           <ul>
             <li>Framer</li>
             <li>Three.js</li>
-            <li>Material UI</li>
+            <li>Email.js</li>
           </ul>
         </motion.section>
       </article>
